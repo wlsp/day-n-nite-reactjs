@@ -20,6 +20,7 @@ class DayNite extends Component {
                 background: "black",
                 color: "white"
             }}>
+                
 
                 <h1>{this.state.title ? "Day" : "Nite"}</h1>
                 <Music />
